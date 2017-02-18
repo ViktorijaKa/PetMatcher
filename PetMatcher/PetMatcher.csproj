@@ -262,6 +262,9 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\sass\mixins.scss" />
+    <Content Include="Content\sass\header.scss" />
+    <Content Include="Content\sass\variables.scss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\custom-jsx\index.jsx" />

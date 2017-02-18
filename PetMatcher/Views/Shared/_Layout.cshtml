@@ -9,17 +9,18 @@
 
 </head>
 <body>
-   
-                @Html.ActionLink("PetMatcher", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            
-        
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-             
-  
+    <header>
+
+        @Html.ActionLink("PetMatcher", "Index", "Home", new { area = "" }, new { @class = "header-brand" })
+
+        <nav>
+            <ul class="nav-list">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            </ul>   
+        </nav>
+    </header>
 
         @RenderBody()
    

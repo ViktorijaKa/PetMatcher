@@ -1,1 +1,18 @@
-﻿
+﻿header {
+  width: 100%;
+  background-color: darkblue; }
+  header .header-brand {
+    color: white; }
+  header nav ul li {
+    list-style: none; }
+    header nav ul li a {
+      text-decoration: none;
+      color: white; }
+
+html, body {
+  width: 100%;
+  margin: 0 auto; }
+
+body {
+  background-color: pink; }
+
